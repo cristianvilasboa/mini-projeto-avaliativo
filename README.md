@@ -9,8 +9,15 @@ Este projeto consiste no desenvolvimento de um pipeline de ETL (Extract, Transfo
 3. Garanta que os arquivos de dados estejam na pasta correta:
    - `data/olist_products_dataset.csv`
    - `data/olist_orders_dataset.csv`
-4. Abra o terminal na raiz do projeto e execute o seguinte comando:
-   ```bash
-   python app/app.py
 
-## 💡 OBS: Este projeto utiliza apenas as bibliotecas nativas do Python. Nenhuma instalação externa será necessária.
+4. Execução em Sistemas UNIX (Linux / macOS)
+Abra o terminal na raiz do projeto e execute o seguinte comando:
+```bash
+python3 app/app.py
+
+5. Execução no Windows (Prompt de Comando ou PowerShell)
+Abra o terminal (CMD ou PowerShell) na raiz do projeto e execute o seguinte comando:
+```cmd
+python app\app.py
+
+### 💡 OBS: Este projeto utiliza apenas as bibliotecas nativas do Python. Nenhuma instalação externa será necessária.
