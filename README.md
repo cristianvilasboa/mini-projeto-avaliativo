@@ -1,4 +1,4 @@
-# Mini-Projeto-Avaliativo: Pipeline de Sanitização de Dados (Olist)
+# Mini-Projeto-Avaliativo: Pipeline de Sanitização de Dados
 
 ## 📝 Descrição do Projeto
 Este projeto consiste no desenvolvimento de um pipeline de ETL (Extract, Transform, Load) nativo em Python para limpar e padronizar os datasets públicos da Olist (`olist_products_dataset.csv` e `olist_orders_dataset.csv`). O objetivo principal é remover inconsistências, tratar dados nulos e formatar campos temporais sem a utilização da biblioteca Pandas, garantindo a integridade dos relatórios automatizados da empresa.
@@ -13,12 +13,12 @@ Este projeto consiste no desenvolvimento de um pipeline de ETL (Extract, Transfo
 4. Execução em Sistemas UNIX (Linux / macOS)
 Abra o terminal na raiz do projeto e execute o seguinte comando:
 ```bash
-python3 app/app.py
+python3 app/app.py```
 
 5. Execução no Windows (Prompt de Comando ou PowerShell)
 Abra o terminal (CMD ou PowerShell) na raiz do projeto e execute o seguinte comando:
 ```cmd
-python app\app.py
+python app\app.py```
 
 ### 💡 OBS: Este projeto utiliza apenas as bibliotecas nativas do Python. Nenhuma instalação externa será necessária.
 
