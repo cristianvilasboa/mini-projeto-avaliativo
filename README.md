@@ -21,3 +21,11 @@ Abra o terminal (CMD ou PowerShell) na raiz do projeto e execute o seguinte coma
 python app\app.py
 
 ### 💡 OBS: Este projeto utiliza apenas as bibliotecas nativas do Python. Nenhuma instalação externa será necessária.
+
+## 🧠 Reflexão Teórica: Qualidade de Dados e Machine Learning
+
+No desenvolvimento de Inteligência Artificial, existe uma regra de ouro: *"Lixo Entra, Lixo Sai"* (do inglês, *Garbage In, Garbage Out*). Isso significa que um modelo de Machine Learning é como um aluno: ele só aprende bem se o material de estudo for bom. Se alimentarmos a IA com dados bagunçados, incompletos ou cheios de erros, as previsões dela também serão ruins.
+
+Quando os dados contêm muitas falhas (como valores nulos ou textos despadronizados), o algoritmo fica confuso e tenta encontrar lógica onde não existe, o que gera dois grandes problemas. O primeiro é o **Overfitting (Superajuste)**, no qual a IA acaba "decorando" os erros e as imperfeições da base de treino, parecendo perfeita nos testes, mas falhando drasticamente ao lidar com situações do mundo real. O segundo são os **Vieses**, que ocorrem quando o modelo aprende padrões errados, gerando decisões automatizadas distorcidas que podem prejudicar diretamente o negócio.
+
+Por isso, a etapa de limpeza que desenvolvemos neste projeto é o coração de qualquer sistema inteligente. Ao padronizar os textos e tratar os valores vazios de forma consciente, garantimos que a IA aprenda apenas padrões reais e seguros. O resultado são previsões confiáveis e prontas para funcionar perfeitamente mesmo em dias de acessos extremos, como na Black Friday.
