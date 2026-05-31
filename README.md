@@ -1,4 +1,16 @@
-# Mini Projeto Avaliativo
-Pipeline de sanitização de dados (ETL) desenvolvido em Python puro para bases de e-commerce da Olist. O projeto utiliza apenas bibliotecas nativas para tratar valores nulos, padronizar strings com Regex e validar regras de negócio, preparando os dados para modelos de Machine Learning e evitando problemas como Overfitting.
+# Mini-Projeto-Avaliativo: Pipeline de Sanitização de Dados (Olist)
 
-Este projeto utiliza apenas as bibliotecas nativas do Python (csv, re, datetime). Nenhuma instalação externa será necessária.
+## 📝 Descrição do Projeto
+Este projeto consiste no desenvolvimento de um pipeline de ETL (Extract, Transform, Load) nativo em Python para limpar e padronizar os datasets públicos da Olist (`olist_products_dataset.csv` e `olist_orders_dataset.csv`). O objetivo principal é remover inconsistências, tratar dados nulos e formatar campos temporais sem a utilização da biblioteca Pandas, garantindo a integridade dos relatórios automatizados da empresa.
+
+## 🚀 Guia de Execução
+1. Certifique-se de ter o Python 3.x instalado em sua máquina.
+2. Clone este repositório ou baixe os arquivos.
+3. Garanta que os arquivos de dados estejam na pasta correta:
+   - `data/olist_products_dataset.csv`
+   - `data/olist_orders_dataset.csv`
+4. Abra o terminal na raiz do projeto e execute o seguinte comando:
+   ```bash
+   python app/app.py
+
+## 💡 OBS: Este projeto utiliza apenas as bibliotecas nativas do Python. Nenhuma instalação externa será necessária.
